@@ -20,6 +20,7 @@ const smile = "0702";
 // function to validate phone number
 
 function validate() {
+    event.preventDefault();
     result.innerText = numInput.value;
     
     if (numInput.value[0] != "0") {
