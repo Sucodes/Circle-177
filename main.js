@@ -25,6 +25,10 @@ function validate() {
     
     if (numInput.value[0] != "0") {
         result.innerText = "Phone number must start with 0.";
+    }
+
+    else if (numInput.value[2] != "0") {
+        result.innerText = "Phone number is not Nigerian.";
     } 
 
     else if (numInput.value.length > 11 || numInput.value.length < 11) {
@@ -73,4 +77,3 @@ function validate() {
         }
     }
 }
-
