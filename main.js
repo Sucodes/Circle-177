@@ -27,14 +27,9 @@ function validate() {
         result.innerText = "Phone number must start with 0.";
     }
 
-<<<<<<< HEAD
     else if (numInput.value[2] > "1") {
         result.innerText = "Phone number does not belong to a Nigerian network provider.";
-=======
-    else if (numInput.value[2] != "0") {
-        result.innerText = "Phone number is not Nigerian.";
->>>>>>> c918a05d1f093dbad20d4d46e968d0237733d545
-    } 
+    }
 
     else if (numInput.value.length > 11 || numInput.value.length < 11) {
         result.innerText = "Phone number must be exactly 11 characters.";
