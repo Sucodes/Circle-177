@@ -9,7 +9,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     margin: 150px auto;
+=======
+    margin: 200px auto;
+>>>>>>> c918a05d1f093dbad20d4d46e968d0237733d545
 }
 
 section {
@@ -62,7 +66,10 @@ section {
 
 @media (min-width: 680px) {
     section {
+<<<<<<< HEAD
         width: 600px;
+=======
+>>>>>>> c918a05d1f093dbad20d4d46e968d0237733d545
         padding: 50px;
 
         .number__validator {
