@@ -20,10 +20,15 @@ const smile = "0702";
 // function to validate phone number
 
 function validate() {
+    event.preventDefault();
     result.innerText = numInput.value;
     
     if (numInput.value[0] != "0") {
         result.innerText = "Phone number must start with 0.";
+    }
+
+    else if (numInput.value[2] > "1") {
+        result.innerText = "Phone number does not belong to a Nigerian network provider.";
     } 
 
     else if (numInput.value.length > 11 || numInput.value.length < 11) {
@@ -72,4 +77,3 @@ function validate() {
         }
     }
 }
-
